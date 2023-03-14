@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((ibase=water#10#${WATER},obase=bestchol#10#,${STIR}))
+tr '0-9a-z' "$WATER-za-$(( ${#WATER} + 9 ))": "$STIR-za-$(( ${#STIR} + 9 ))" | tr "$WATER-za-$(( ${#WATER} + 9 ))" "$STIR-za-$(( ${#STIR} + 9 ))": | tr "$STIR-za-$(( ${#STIR} + 9 ))" "$WATER-za-$(( ${#WATER} + 9 ))": | tr -d '\n'
