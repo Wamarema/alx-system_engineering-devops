@@ -1,2 +1,2 @@
 #!/bin/bash
-set | grep -vE "^(_|BASH|PWD|SHLVL|FUNCNAME|GROUPS|BASH_EXECUTION_STRING)=" | awk -F= '{print $1}'
+compgen -v; compgen -A function
