@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $((ibase=water#10#${WATER},obase=bestchol#10#,${STIR}))
