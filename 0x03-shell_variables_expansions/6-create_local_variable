@@ -1,2 +1,2 @@
 #!/bin/bash
-(echo "The value of BEST is: $(BEST=School; echo $BEST)")
+BEST="School"
